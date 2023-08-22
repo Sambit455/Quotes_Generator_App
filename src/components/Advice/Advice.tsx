@@ -12,7 +12,7 @@ const Advice: React.FC<AdviceProps> = ({advice, id}) => {
   if (advice && id) {
     return (
       <>
-        <p className="id">ADVICE #{id}</p>
+        <p className="id">Quote #{id}</p>
         <div className="advice-container">
           {`"${advice}"`}
         </div>
